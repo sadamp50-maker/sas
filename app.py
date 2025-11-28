@@ -3,11 +3,7 @@ import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
 import os
-import pdfkit
 
-pdf_config = pdfkit.configuration(
-    wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
-)
 
 # -------------------- CONFIG --------------------
 DB_PATH = "billboards.db"
